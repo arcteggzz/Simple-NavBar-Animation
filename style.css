@@ -128,6 +128,13 @@ section {
     grid-template-columns: 360px;
     grid-template-rows: 150px 120px;
     grid-template-areas: "image" "text";
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .card-image {
